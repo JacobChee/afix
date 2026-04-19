@@ -228,7 +228,23 @@ footer{background:var(--navy);padding:52px 6vw 32px}
 .fade-up.visible{opacity:1;transform:translateY(0)}
 
 @media(max-width:960px){
-  #hero{grid-template-columns:1fr}.hero-right{display:none}
+  #hero{
+    grid-template-columns:1fr;
+    background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80&fit=crop');
+    background-size:cover;
+    background-position:center;
+    position:relative;
+  }
+  #hero::before{
+    content:'';
+    position:absolute;
+    inset:0;
+    background:rgba(15,42,74,0.82);
+    z-index:0;
+  }
+  .hero-left{position:relative;z-index:1}
+  .hero-bg-grid{z-index:0}
+  .hero-right{display:none}
   .services-grid{grid-template-columns:1fr}.service-card{border-right:none;border-bottom:1px solid var(--border)}.service-card:last-child{border-bottom:none}
   .testi-grid{grid-template-columns:1fr}
   #about{grid-template-columns:1fr}.about-float-card{right:0}
