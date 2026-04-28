@@ -3,11 +3,15 @@
   "builds": [
     { "src": "index.html", "use": "@vercel/static" },
     { "src": "og-image.png", "use": "@vercel/static" },
-    { "src": "hero.mp4", "use": "@vercel/static" }
+    { "src": "hero.mp4", "use": "@vercel/static" },
+    { "src": "afix-bathroom.png", "use": "@vercel/static" },
+    { "src": "afix-kitchen.png", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/og-image.png", "dest": "/og-image.png" },
     { "src": "/hero.mp4", "dest": "/hero.mp4" },
+    { "src": "/afix-bathroom.png", "dest": "/afix-bathroom.png" },
+    { "src": "/afix-kitchen.png", "dest": "/afix-kitchen.png" },
     { "src": "/(.*)", "dest": "/index.html" }
   ],
   "headers": [
