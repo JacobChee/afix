@@ -320,6 +320,7 @@ footer{background:var(--navy);padding:52px 6vw 32px;border-top:1px solid rgba(25
   .pricing-two-col{grid-template-columns:1fr}
   .content-two-col{grid-template-columns:1fr}
   .brands-grid{grid-template-columns:repeat(3,1fr)}
+  .areas-grid{grid-template-columns:repeat(3,1fr)!important}
   .problems-grid{grid-template-columns:1fr}
   .why-grid{grid-template-columns:1fr 1fr}
   .faq-layout{grid-template-columns:1fr}.faq-sticky{position:static}
@@ -330,6 +331,7 @@ footer{background:var(--navy);padding:52px 6vw 32px;border-top:1px solid rgba(25
 @media(max-width:600px){
   .brands-grid{grid-template-columns:repeat(2,1fr)}
   .why-grid{grid-template-columns:1fr}
+  .areas-grid{grid-template-columns:repeat(2,1fr)!important}
   .nav-links{display:none}
   .tagline-strip{gap:20px}
   .compare-table th,.compare-table td{padding:10px 14px;font-size:13px}
@@ -716,7 +718,7 @@ footer{background:var(--navy);padding:52px 6vw 32px;border-top:1px solid rgba(25
   <div class="section-label">Coverage</div>
   <h2 class="section-heading">Areas we cover in Singapore</h2>
   <p class="section-sub">We service every part of the island — no travel surcharge anywhere. Find your area below for local pricing and availability.</p>
-  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;" class="fade-up">
+  <div class="areas-grid fade-up" style="display:grid;grid-template-columns:repeat(5,1fr);gap:12px;">
     <a href="/aircon-servicing-tampines/" style="display:flex;justify-content:space-between;align-items:center;padding:16px 20px;background:var(--white);border:1px solid var(--border);border-radius:10px;text-decoration:none;color:var(--navy);font-size:14px;font-weight:500;transition:border-color .2s,box-shadow .2s;" onmouseover="this.style.borderColor='var(--blue)';this.style.boxShadow='0 2px 12px rgba(26,95,168,0.1)'" onmouseout="this.style.borderColor='var(--border)';this.style.boxShadow='none'">Tampines <span style="color:var(--blue);font-size:12px;">→</span></a>
     <a href="/aircon-servicing-jurong-west/" style="display:flex;justify-content:space-between;align-items:center;padding:16px 20px;background:var(--white);border:1px solid var(--border);border-radius:10px;text-decoration:none;color:var(--navy);font-size:14px;font-weight:500;transition:border-color .2s,box-shadow .2s;" onmouseover="this.style.borderColor='var(--blue)';this.style.boxShadow='0 2px 12px rgba(26,95,168,0.1)'" onmouseout="this.style.borderColor='var(--border)';this.style.boxShadow='none'">Jurong West <span style="color:var(--blue);font-size:12px;">→</span></a>
     <a href="/aircon-servicing-woodlands/" style="display:flex;justify-content:space-between;align-items:center;padding:16px 20px;background:var(--white);border:1px solid var(--border);border-radius:10px;text-decoration:none;color:var(--navy);font-size:14px;font-weight:500;transition:border-color .2s,box-shadow .2s;" onmouseover="this.style.borderColor='var(--blue)';this.style.boxShadow='0 2px 12px rgba(26,95,168,0.1)'" onmouseout="this.style.borderColor='var(--border)';this.style.boxShadow='none'">Woodlands <span style="color:var(--blue);font-size:12px;">→</span></a>
