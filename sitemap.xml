@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://afix.sg/</loc>
     <lastmod>2026-04-29</lastmod>
@@ -11,83 +12,139 @@
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-aircon-servicing.jpg</image:loc>
+      <image:title>AFIX technician servicing a wall-mounted air conditioning unit in Singapore</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://afix.sg/aircon-chemical-wash/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-aircon-chemical-wash.jpg</image:loc>
+      <image:title>Aircon chemical wash — technician deep-cleaning an indoor unit in Singapore</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://afix.sg/daikin-aircon-servicing/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-daikin.jpg</image:loc>
+      <image:title>Daikin aircon outdoor unit inspection by AFIX technician in Singapore</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://afix.sg/mitsubishi-electric-aircon-servicing/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-mitsubishi.jpg</image:loc>
+      <image:title>Mitsubishi Electric aircon serviced by a certified AFIX technician in Singapore</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://afix.sg/aircon-servicing-tampines/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-tampines.jpg</image:loc>
+      <image:title>Aircon servicing in Tampines HDB flats by AFIX</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://afix.sg/aircon-servicing-jurong-west/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-jurong-west.jpg</image:loc>
+      <image:title>Aircon servicing in Jurong West Singapore by AFIX</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://afix.sg/aircon-servicing-woodlands/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-woodlands.jpg</image:loc>
+      <image:title>Aircon servicing in Woodlands HDB flats by AFIX Singapore</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://afix.sg/aircon-servicing-sengkang/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-sengkang.jpg</image:loc>
+      <image:title>Aircon servicing in Sengkang HDB estate by AFIX Singapore</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://afix.sg/aircon-servicing-punggol/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-punggol.jpg</image:loc>
+      <image:title>Aircon servicing in Punggol HDB by AFIX Singapore</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://afix.sg/aircon-servicing-hougang/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hougang.jpg</image:loc>
+      <image:title>Aircon servicing in Hougang HDB by AFIX Singapore</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://afix.sg/aircon-servicing-yishun/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-yishun.jpg</image:loc>
+      <image:title>Aircon servicing in Yishun HDB flats by AFIX Singapore</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://afix.sg/aircon-servicing-bedok/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-bedok.jpg</image:loc>
+      <image:title>Aircon servicing in Bedok HDB and private property by AFIX Singapore</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://afix.sg/aircon-servicing-ang-mo-kio/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-ang-mo-kio.jpg</image:loc>
+      <image:title>Aircon servicing in Ang Mo Kio HDB estates by AFIX Singapore</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://afix.sg/aircon-servicing-choa-chu-kang/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-choa-chu-kang.jpg</image:loc>
+      <image:title>Aircon servicing in Choa Chu Kang HDB by AFIX Singapore</image:title>
+    </image:image>
   </url>
 </urlset>
