@@ -34,11 +34,13 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": ["HomeAndConstructionBusiness", "HVACBusiness"],
   "name": "AFIX Services Pte Ltd",
   "description": "Licensed general and direct contractor in Singapore specialising in condo renovation, commercial fit-outs, aircon servicing, and facilities maintenance.",
   "url": "https://afix.sg",
   "telephone": "+6594513022",
+  "image": "https://afix.sg/og-image.png",
+  "logo": "https://afix.sg/og-image.png",
   "address": {
     "@type": "PostalAddress",
     "addressCountry": "SG",
@@ -46,15 +48,16 @@
   },
   "areaServed": {"@type": "Country", "name": "Singapore"},
   "priceRange": "$$",
-  "openingHours": "Mo-Fr 09:00-18:00",
+  "currenciesAccepted": "SGD",
+  "openingHours": "Mo-Su 09:00-18:00",
   "sameAs": [],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Contractor Services",
     "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Aircon Servicing", "url": "https://afix.sg/aircon-servicing/"}},
       {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Condo Renovation"}},
       {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Commercial Fit-out"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Aircon Servicing"}},
       {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Facilities Maintenance"}}
     ]
   }
