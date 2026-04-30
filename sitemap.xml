@@ -147,4 +147,16 @@
       <image:title>Aircon servicing in Choa Chu Kang HDB by AFIX Singapore</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://afix.sg/aircon-not-cold/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://afix.sg/aircon-leaking-water/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
