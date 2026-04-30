@@ -259,4 +259,28 @@
       <image:title>HDB residential block with green archway in Bukit Panjang Singapore</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://afix.sg/blog/</loc>
+    <lastmod>2025-04-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://afix.sg/blog/how-often-service-aircon-singapore/</loc>
+    <lastmod>2025-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://afix.sg/blog/aircon-chemical-wash-vs-normal-service/</loc>
+    <lastmod>2025-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://afix.sg/blog/why-does-my-aircon-smell/</loc>
+    <lastmod>2025-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
