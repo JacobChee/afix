@@ -51,9 +51,9 @@ nav{position:sticky;top:0;z-index:200;background:var(--white);border-bottom:1px 
 .nav-cta:hover{background:var(--blue-lt);transform:translateY(-1px)}
 .breadcrumb{background:var(--off);border-bottom:1px solid var(--border);padding:12px 6vw;font-size:13px;color:var(--muted)}
 .breadcrumb a{color:var(--muted);text-decoration:none}.breadcrumb a:hover{color:var(--blue)}.breadcrumb span{margin:0 6px}
-.page-hero{background:var(--navy);padding:72px 6vw 64px;position:relative;overflow:hidden}
+.page-hero{background:var(--navy);position:relative;overflow:hidden}
 .hero-grid{position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgba(255,255,255,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.03) 1px,transparent 1px);background-size:40px 40px}
-.hero-inner{position:relative;z-index:1;max-width:1200px;display:flex;align-items:center;gap:64px}.page-hero-text{flex:1;min-width:0}.page-hero-img{flex-shrink:0;width:440px;border-radius:12px;overflow:hidden;box-shadow:0 16px 48px rgba(0,0,0,0.35)}.page-hero-img img{width:100%;height:360px;object-fit:cover;object-position:center;display:block}@media(max-width:900px){.page-hero-img{display:none}}
+.hero-inner{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;align-items:stretch;min-height:480px}.page-hero-text{padding:72px 48px 64px 6vw;display:flex;flex-direction:column;justify-content:center}.page-hero-img{position:relative;overflow:hidden}.page-hero-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}@media(max-width:900px){.page-hero-img{display:none}.hero-inner{grid-template-columns:1fr;min-height:0}.page-hero-text{padding:56px 6vw 48px}}
 .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.14);border-radius:100px;padding:6px 16px 6px 8px;font-size:13px;color:rgba(255,255,255,0.8);margin-bottom:28px}
 .badge-dot{width:7px;height:7px;background:var(--accent);border-radius:50%}
 .page-h1{font-family:var(--font-head);font-size:clamp(32px,4vw,52px);font-weight:700;color:var(--white);line-height:1.15;margin-bottom:18px}
@@ -147,7 +147,7 @@ footer{background:var(--navy);padding:52px 6vw 32px;border-top:1px solid rgba(25
     </div>
   </div>
   <div class="page-hero-img">
-    <img src="/images/hero-sengkang.jpg" alt="Colourful HDB residential block in Sengkang Singapore" width="440" height="300" loading="eager" fetchpriority="high">
+    <img src="/images/hero-sengkang.jpg" alt="Waterway park near Sengkang Singapore" width="440" height="300" loading="eager" fetchpriority="high">
   </div>
   </div>
 </section>
