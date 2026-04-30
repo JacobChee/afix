@@ -159,4 +159,104 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://afix.sg/aircon-servicing-clementi/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Clementi Singapore</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://afix.sg/aircon-servicing-toa-payoh/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Toa Payoh Singapore</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://afix.sg/aircon-servicing-queenstown/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Queenstown Singapore</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://afix.sg/aircon-servicing-bishan/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Bishan Singapore</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://afix.sg/aircon-servicing-pasir-ris/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Pasir Ris Singapore</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://afix.sg/aircon-servicing-bukit-batok/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Bukit Batok Singapore</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://afix.sg/aircon-servicing-jurong-east/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Jurong East Singapore</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://afix.sg/aircon-servicing-serangoon/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Serangoon Singapore</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://afix.sg/aircon-servicing-sembawang/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Sembawang Singapore</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://afix.sg/aircon-servicing-bukit-panjang/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Bukit Panjang Singapore</image:title>
+    </image:image>
+  </url>
 </urlset>
