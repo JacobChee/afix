@@ -128,11 +128,15 @@ footer{background:var(--navy);padding:52px 6vw 32px;border-top:1px solid rgba(25
 .footer-copy,.footer-lic{font-size:13px;color:rgba(255,255,255,0.28)}
 
 /* LIGHTBOX */
-.lightbox{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,0.9);align-items:center;justify-content:center;padding:20px}
+.lightbox{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,0.92);align-items:center;justify-content:center;padding:20px}
 .lightbox.open{display:flex}
 .lightbox-img{max-width:90vw;max-height:90vh;object-fit:contain;border-radius:8px;box-shadow:0 24px 80px rgba(0,0,0,0.6)}
-.lightbox-close{position:fixed;top:20px;right:24px;background:none;border:none;color:#fff;font-size:36px;cursor:pointer;line-height:1;opacity:0.8}
-.lightbox-close:hover{opacity:1}
+.lb-btn{position:fixed;background:rgba(255,255,255,0.15);border:none;color:#fff;cursor:pointer;border-radius:50%;width:48px;height:48px;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(4px);transition:background .2s;flex-shrink:0}
+.lb-btn:hover{background:rgba(255,255,255,0.3)}
+.lb-close{top:20px;right:20px}
+.lb-prev{left:16px;top:50%;transform:translateY(-50%)}
+.lb-next{right:16px;top:50%;transform:translateY(-50%)}
+.lb-btn[hidden]{visibility:hidden;pointer-events:none}
 .job-card{cursor:pointer}
 
 /* RESPONSIVE */
@@ -197,8 +201,16 @@ footer{background:var(--navy);padding:52px 6vw 32px;border-top:1px solid rgba(25
 
 <!-- LIGHTBOX -->
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
-  <button class="lightbox-close" id="lightbox-close" aria-label="Close">&#times;</button>
+  <button class="lb-btn lb-close" id="lightbox-close" aria-label="Close">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <button class="lb-btn lb-prev" id="lb-prev" aria-label="Previous">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+  </button>
   <img class="lightbox-img" id="lightbox-img" src="" alt="">
+  <button class="lb-btn lb-next" id="lb-next" aria-label="Next">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+  </button>
 </div>
 
 <!-- GRID -->
@@ -361,16 +373,39 @@ updateCount(cards.length);
 // Lightbox
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightbox-img');
+const lbPrev = document.getElementById('lb-prev');
+const lbNext = document.getElementById('lb-next');
+let currentIndex = 0;
+let cardImages = [];
+
+function buildImageList() {
+  cardImages = [];
+  document.querySelectorAll('.job-card:not([style*="display: none"])').forEach(card => {
+    const img = card.querySelector('.job-card-img');
+    cardImages.push({ src: img.src, alt: img.alt });
+  });
+}
+
+function showImage(i) {
+  lightboxImg.src = cardImages[i].src;
+  lightboxImg.alt = cardImages[i].alt;
+  lbPrev.hidden = i === 0;
+  lbNext.hidden = i === cardImages.length - 1;
+}
 
 document.querySelectorAll('.job-card').forEach(card => {
   card.addEventListener('click', () => {
+    buildImageList();
     const img = card.querySelector('.job-card-img');
-    lightboxImg.src = img.src;
-    lightboxImg.alt = img.alt;
+    currentIndex = cardImages.findIndex(c => c.src === img.src);
+    showImage(currentIndex);
     lightbox.classList.add('open');
     document.body.style.overflow = 'hidden';
   });
 });
+
+lbPrev.addEventListener('click', e => { e.stopPropagation(); if (currentIndex > 0) showImage(--currentIndex); });
+lbNext.addEventListener('click', e => { e.stopPropagation(); if (currentIndex < cardImages.length - 1) showImage(++currentIndex); });
 
 function closeLightbox() {
   lightbox.classList.remove('open');
@@ -379,7 +414,12 @@ function closeLightbox() {
 
 document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
 lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+document.addEventListener('keydown', e => {
+  if (!lightbox.classList.contains('open')) return;
+  if (e.key === 'Escape') closeLightbox();
+  if (e.key === 'ArrowLeft' && currentIndex > 0) showImage(--currentIndex);
+  if (e.key === 'ArrowRight' && currentIndex < cardImages.length - 1) showImage(++currentIndex);
+});
 </script>
 
 </body>
