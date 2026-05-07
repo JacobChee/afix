@@ -112,6 +112,8 @@ td:first-child{font-weight:500;white-space:nowrap}
 footer{background:var(--navy);padding:40px 6vw 28px}
 .footer-bottom{font-size:12px;color:rgba(255,255,255,0.3);padding-top:20px;border-top:1px solid rgba(255,255,255,0.1)}
 @media(max-width:768px){.nav-links{display:none}table{font-size:13px}}
+.nav-hamburger{display:none;background:none;border:none;cursor:pointer;padding:6px;color:var(--navy);line-height:0;flex-shrink:0}
+@media(max-width:768px){.nav-hamburger{display:flex}.nav-cta{display:none!important}.nav-links.open{display:flex!important;position:fixed;top:68px;left:0;right:0;background:var(--white);border-bottom:2px solid var(--border);flex-direction:column;padding:8px 0;gap:0;z-index:300;box-shadow:0 8px 24px rgba(15,42,74,.12)}.nav-links.open li,.nav-links.open a{display:block;width:100%}.nav-links.open a{padding:14px 6vw;font-size:15px;border-bottom:1px solid var(--border);color:var(--navy)!important}}
 </style>
 </head>
 <body>
@@ -132,6 +134,7 @@ footer{background:var(--navy);padding:40px 6vw 28px}
     <li><a href="/blog/">Blog</a></li>
   </ul>
   <a class="nav-cta" href="https://wa.me/6594513022" target="_blank" rel="noopener">WhatsApp Us</a>
+<button class="nav-hamburger" aria-label="Menu" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
 </nav>
 
 <div class="breadcrumb">
