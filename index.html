@@ -158,15 +158,23 @@ nav{position:sticky;top:0;z-index:200;background:var(--white);border-bottom:1px 
 .section-label{font-size:11px;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:var(--blue);margin-bottom:12px}
 .section-heading{font-family:var(--font-head);font-size:clamp(30px,3.2vw,44px);font-weight:700;color:var(--navy);line-height:1.2;margin-bottom:16px}
 .section-sub{font-size:17px;font-weight:300;color:var(--muted);max-width:500px;line-height:1.75;margin-bottom:52px}
-.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--border);border-radius:16px;overflow:hidden}
-.service-card{padding:48px 40px;border-right:1px solid var(--border);position:relative;background:var(--white);transition:background .2s}
-.service-card:last-child{border-right:none}
-.service-card:hover{background:#f0f6ff}
-.service-card::after{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--steel);transform:scaleX(0);transform-origin:left;transition:transform .3s}
-.service-card:hover::after{transform:scaleX(1)}
-.service-icon{width:52px;height:52px;background:var(--sky);border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:24px}
-.service-icon svg{width:26px;height:26px;stroke:var(--blue);fill:none;stroke-width:1.7}
-.service-title{font-family:var(--font-head);font-size:22px;color:var(--navy);margin-bottom:12px}
+#services .section-sub{margin-bottom:28px}
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:-12px}
+.service-card{padding:36px 32px;border:1px solid var(--border);border-radius:16px;position:relative;background:var(--white);transition:background .2s,box-shadow .2s,transform .2s;overflow:hidden}
+.service-card:hover{background:#f5f9ff;box-shadow:0 6px 24px rgba(15,42,74,.08);transform:translateY(-2px)}
+.service-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px}
+.service-card:nth-child(1)::before{background:var(--blue)}
+.service-card:nth-child(2)::before{background:#D97C3A}
+.service-card:nth-child(3)::before{background:#2E8A56}
+.service-icon{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:20px}
+.service-card:nth-child(1) .service-icon{background:var(--sky)}
+.service-card:nth-child(2) .service-icon{background:#FDF0E6}
+.service-card:nth-child(3) .service-icon{background:#E6F4ED}
+.service-icon svg{width:24px;height:24px;fill:none;stroke-width:1.7}
+.service-card:nth-child(1) .service-icon svg{stroke:var(--blue)}
+.service-card:nth-child(2) .service-icon svg{stroke:#D97C3A}
+.service-card:nth-child(3) .service-icon svg{stroke:#2E8A56}
+.service-title{font-family:var(--font-head);font-size:20px;color:var(--navy);margin-bottom:10px}
 .service-body{font-size:15px;font-weight:300;color:var(--muted);line-height:1.75}
 .service-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
 .service-tag{font-size:12px;font-weight:500;background:var(--sky);color:var(--blue);padding:4px 12px;border-radius:100px}
@@ -447,14 +455,16 @@ footer{background:var(--navy);padding:52px 6vw 32px}
       <div class="service-title">Renovation</div>
       <p class="service-body">Full unit and partial renovations for condominiums and private residential properties. We manage the whole job — carpentry, tiling, electrical, plumbing — so you deal with one contractor, not five.</p>
       <div class="service-tags"><span class="service-tag">Condo</span><span class="service-tag">Landed</span><span class="service-tag">Resale &amp; new</span><span class="service-tag">Full or partial</span></div>
+      <a href="https://wa.me/6594513022?text=Hi%20AFIX!%20I%27d%20like%20to%20enquire%20about%20a%20renovation." target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;margin-top:18px;font-size:13px;font-weight:500;color:#D97C3A;text-decoration:none;border-bottom:1px solid #D97C3A;padding-bottom:1px;">Enquire about renovation →</a>
     </div>
     <div class="service-card fade-up">
       <div class="service-icon">
         <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
       </div>
       <div class="service-title">Commercial &amp; Residential Build-outs</div>
-      <p class="service-body">Turn-key fit-outs for educational centres, healthcare clinics, and offices. We understand compliance requirements and deliver spaces that work from day one. </p>
+      <p class="service-body">Turn-key fit-outs for educational centres, healthcare clinics, and offices. We understand compliance requirements and deliver spaces that work from day one.</p>
       <div class="service-tags"><span class="service-tag">Clinics</span><span class="service-tag">Schools</span><span class="service-tag">Offices</span></div>
+      <a href="https://wa.me/6594513022?text=Hi%20AFIX!%20I%27d%20like%20to%20enquire%20about%20a%20build-out%20or%20fit-out." target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;margin-top:18px;font-size:13px;font-weight:500;color:#2E8A56;text-decoration:none;border-bottom:1px solid #2E8A56;padding-bottom:1px;">Enquire about build-outs →</a>
     </div>
   </div>
 </section>
