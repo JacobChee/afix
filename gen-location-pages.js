@@ -5,6 +5,24 @@ const REPO = path.resolve(__dirname);
 
 const areas = [
   {
+    slug: 'kallang-whampoa',
+    name: 'Kallang / Whampoa',
+    badge: 'Kallang · Whampoa · Central Singapore · HDB · Condo · No travel surcharge',
+    precincts: 'Boon Keng, Kolam Ayer, Towner, Kallang Basin, Whampoa Drive, and Geylang Bahru',
+    geoRegion: 'SG-01',
+    context1: 'Kallang / Whampoa is one of Singapore\'s most centrally located HDB areas, covering Boon Keng, Kolam Ayer, Towner Road, Whampoa Drive, and the Kallang Basin precincts. It has a dense mix of older HDB blocks, newer BTOs, and private developments. We cover the entire area with no travel surcharge.',
+    context2: 'Older Kallang / Whampoa flats — particularly in Boon Keng and Kolam Ayer — often have aircon units that haven\'t been serviced in years. Mould buildup on the coil and blocked drainage are the most common issues we see here. A chemical wash is the right starting point for any unit that smells, isn\'t cold, or has visible water dripping from the indoor unit.',
+    faq1q: 'Do you service aircon in Kallang and Whampoa?',
+    faq1a: 'Yes — Kallang / Whampoa is a regular service area. We cover Boon Keng, Kolam Ayer, Towner, Whampoa Drive, Kallang Basin, and Geylang Bahru. No travel surcharge applies.',
+    faq2a: '$50 for 1 unit, $30/unit for 2 units, $25/unit for 3 or more. Chemical wash: $60 for 1 unit, $50/unit for 2 or more. No travel surcharge for Kallang / Whampoa.',
+    faq3q: 'Do you cover Boon Keng and Kolam Ayer HDB blocks?',
+    faq3a: 'Yes — including all HDB blocks in Boon Keng, Kolam Ayer, and the surrounding streets. We also service condos near the Kallang Basin and private housing in the area.',
+    faq4a: 'We can typically confirm a same-week slot for Kallang / Whampoa. WhatsApp us your block and unit count and we\'ll reply within a few hours.',
+    waText: 'Hi%20AFIX!%20I\'d%20like%20to%20book%20an%20aircon%20service%20in%20Kallang%20Whampoa.',
+    heroImg: 'hero-hdb-block',
+    heroAlt: 'HDB residential block in Kallang Whampoa Singapore',
+  },
+  {
     slug: 'clementi',
     name: 'Clementi',
     badge: 'Clementi · West Singapore · HDB · Condo · No travel surcharge',
@@ -198,6 +216,7 @@ const allAreas = [
   { slug: 'bedok', name: 'Bedok' },
   { slug: 'ang-mo-kio', name: 'Ang Mo Kio' },
   { slug: 'choa-chu-kang', name: 'Choa Chu Kang' },
+  { slug: 'kallang-whampoa', name: 'Kallang / Whampoa' },
   { slug: 'clementi', name: 'Clementi' },
   { slug: 'toa-payoh', name: 'Toa Payoh' },
   { slug: 'queenstown', name: 'Queenstown' },
