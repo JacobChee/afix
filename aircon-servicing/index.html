@@ -254,6 +254,10 @@ nav{position:sticky;top:0;z-index:200;background:var(--white);border-bottom:1px 
 .content-body p{font-size:16px;font-weight:300;color:var(--muted);line-height:1.85;margin-bottom:18px}
 .content-body p:last-child{margin-bottom:0}
 .check-list{list-style:none;display:flex;flex-direction:column;gap:12px;margin-top:8px}
+.check-list-2col{display:grid;grid-template-columns:1fr 1fr;gap:8px 20px}
+.read-more-btn{background:none;border:none;cursor:pointer;font-size:13px;font-weight:500;color:var(--blue);padding:6px 0;margin-top:8px;display:inline-flex;align-items:center;gap:4px}
+.body-collapsible{overflow:hidden;max-height:0;transition:max-height .35s ease}
+.body-collapsible.open{max-height:600px}
 .check-list li{display:flex;align-items:flex-start;gap:10px;font-size:15px;font-weight:300;color:var(--muted);line-height:1.5}
 .check-list li::before{content:'';width:18px;height:18px;background:var(--sky);border-radius:50%;flex-shrink:0;margin-top:2px;display:flex;align-items:center;justify-content:center;background-image:url("data:image/svg+xml,%3Csvg width='10' height='10' viewBox='0 0 10 10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolyline points='1.5,5 4,7.5 8.5,2.5' fill='none' stroke='%231a5fa8' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center}
 
@@ -562,12 +566,15 @@ footer{background:var(--navy);padding:52px 6vw 32px;border-top:1px solid rgba(25
   <div class="content-two-col fade-up">
     <div class="content-body">
       <p>Every aircon service — regardless of tier — includes shoe covers and floor protection before we touch anything. We take before-and-after photos so you can see exactly what was done. No extra charge for this.</p>
-      <p>For a standard service: we wash and disinfect the air filters, clean the evaporator coil, clear the drainage tray and piping, clean the blower wheel, vacuum the drainage line, and run a compressor pressure check. The whole job takes 20–30 minutes per unit.</p>
-      <p>For a chemical wash: the evaporator coil is flushed with chemical solution, all components are high-pressure washed, and the full drainage system is flushed. Allow 45–60 minutes per unit.</p>
-      <p>If we spot anything that needs attention — low gas, a cracked drain tray, unusual compressor readings — we'll flag it clearly and quote separately. We won't do extra work without your approval.</p>
+      <div class="body-collapsible" id="included-more">
+        <p>For a standard service: we wash and disinfect the air filters, clean the evaporator coil, clear the drainage tray and piping, clean the blower wheel, vacuum the drainage line, and run a compressor pressure check. The whole job takes 20–30 minutes per unit.</p>
+        <p>For a chemical wash: the evaporator coil is flushed with chemical solution, all components are high-pressure washed, and the full drainage system is flushed. Allow 45–60 minutes per unit.</p>
+        <p>If we spot anything that needs attention — low gas, a cracked drain tray, unusual compressor readings — we'll flag it clearly and quote separately. We won't do extra work without your approval.</p>
+      </div>
+      <button class="read-more-btn" onclick="toggleIncluded(this)">Read more <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="transition:transform .25s"><polyline points="6 9 12 15 18 9"/></svg></button>
     </div>
     <div>
-      <ul class="check-list">
+      <ul class="check-list check-list-2col">
         <li>Shoe covers and floor protection always used</li>
         <li>Before and after photos sent to you — <a href="/our-work/" style="color:var(--blue);text-decoration:none;font-weight:500;">see examples →</a></li>
         <li>Air filter wash and disinfection</li>
@@ -886,6 +893,14 @@ document.querySelectorAll('.ap-feats-toggle').forEach(btn => {
     btn.setAttribute('aria-expanded', open);
   });
 });
+
+function toggleIncluded(btn) {
+  const el = document.getElementById('included-more');
+  const open = el.classList.toggle('open');
+  const svg = btn.querySelector('svg');
+  btn.childNodes[0].textContent = open ? 'Read less ' : 'Read more ';
+  svg.style.transform = open ? 'rotate(180deg)' : '';
+}
 </script>
 </body>
 </html>
