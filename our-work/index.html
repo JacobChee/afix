@@ -127,6 +127,14 @@ footer{background:var(--navy);padding:52px 6vw 32px;border-top:1px solid rgba(25
 .footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;padding-top:28px}
 .footer-copy,.footer-lic{font-size:13px;color:rgba(255,255,255,0.28)}
 
+/* LIGHTBOX */
+.lightbox{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,0.9);align-items:center;justify-content:center;padding:20px}
+.lightbox.open{display:flex}
+.lightbox-img{max-width:90vw;max-height:90vh;object-fit:contain;border-radius:8px;box-shadow:0 24px 80px rgba(0,0,0,0.6)}
+.lightbox-close{position:fixed;top:20px;right:24px;background:none;border:none;color:#fff;font-size:36px;cursor:pointer;line-height:1;opacity:0.8}
+.lightbox-close:hover{opacity:1}
+.job-card{cursor:pointer}
+
 /* RESPONSIVE */
 @media(max-width:768px){
   .nav-links{display:none}
@@ -185,6 +193,12 @@ footer{background:var(--navy);padding:52px 6vw 32px;border-top:1px solid rgba(25
     <button class="tab-btn active" role="tab" data-tab="all">All</button>
     <button class="tab-btn" role="tab" data-tab="aircon">Aircon</button>
   </div>
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close">&#times;</button>
+  <img class="lightbox-img" id="lightbox-img" src="" alt="">
 </div>
 
 <!-- GRID -->
@@ -343,6 +357,29 @@ tabs.forEach(btn => {
 
 // Init count
 updateCount(cards.length);
+
+// Lightbox
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+
+document.querySelectorAll('.job-card').forEach(card => {
+  card.addEventListener('click', () => {
+    const img = card.querySelector('.job-card-img');
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
+    lightbox.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  });
+});
+
+function closeLightbox() {
+  lightbox.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
 </script>
 
 </body>
