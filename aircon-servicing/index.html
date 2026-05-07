@@ -217,7 +217,12 @@ nav{position:sticky;top:0;z-index:200;background:var(--white);border-bottom:1px 
 .ap-price-row:first-child{padding-top:0}
 .ap-label{color:var(--muted)}
 .ap-val{font-weight:500;color:var(--navy);font-size:15px}
-.ap-feats{padding:16px 24px;border-bottom:1px solid var(--border)}
+.ap-feats{border-bottom:1px solid var(--border)}
+.ap-feats-toggle{display:flex;align-items:center;justify-content:space-between;width:100%;padding:12px 24px;background:none;border:none;cursor:pointer;font-size:13px;font-weight:500;color:var(--blue);text-align:left}
+.ap-feats-toggle svg{transition:transform .25s;flex-shrink:0}
+.ap-feats-toggle[aria-expanded="true"] svg{transform:rotate(180deg)}
+.ap-feats-list{overflow:hidden;max-height:0;transition:max-height .3s ease,padding .3s ease;padding:0 24px}
+.ap-feats-list.open{max-height:400px;padding:0 24px 14px}
 .ap-feat{display:flex;align-items:flex-start;gap:9px;font-size:13px;color:var(--muted);line-height:1.45;margin-bottom:9px}
 .ap-feat:last-child{margin-bottom:0}
 .ap-check{width:16px;height:16px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;margin-top:1px}
@@ -431,13 +436,19 @@ footer{background:var(--navy);padding:52px 6vw 32px;border-top:1px solid rgba(25
         <div class="ap-price-row"><span class="ap-label">3 units onwards</span><span class="ap-val">$25 / unit</span></div>
       </div>
       <div class="ap-feats">
-        <div class="ap-feat"><span class="ap-check g"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#3B6D11" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Wash &amp; disinfect air filters</div>
-        <div class="ap-feat"><span class="ap-check g"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#3B6D11" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Clean indoor evaporator coil</div>
-        <div class="ap-feat"><span class="ap-check g"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#3B6D11" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Clear drainage tray and pipes</div>
-        <div class="ap-feat"><span class="ap-check g"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#3B6D11" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Blower wheel cleaning</div>
-        <div class="ap-feat"><span class="ap-check g"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#3B6D11" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Drainage vacuum &amp; blockage check</div>
-        <div class="ap-feat"><span class="ap-check g"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#3B6D11" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Compressor pressure check</div>
-        <div class="ap-feat"><span class="ap-check g"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#3B6D11" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Before &amp; after photos every job</div>
+        <button class="ap-feats-toggle" aria-expanded="false">
+          What's included
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="ap-feats-list">
+          <div class="ap-feat"><span class="ap-check g"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#3B6D11" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Wash &amp; disinfect air filters</div>
+          <div class="ap-feat"><span class="ap-check g"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#3B6D11" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Clean indoor evaporator coil</div>
+          <div class="ap-feat"><span class="ap-check g"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#3B6D11" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Clear drainage tray and pipes</div>
+          <div class="ap-feat"><span class="ap-check g"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#3B6D11" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Blower wheel cleaning</div>
+          <div class="ap-feat"><span class="ap-check g"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#3B6D11" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Drainage vacuum &amp; blockage check</div>
+          <div class="ap-feat"><span class="ap-check g"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#3B6D11" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Compressor pressure check</div>
+          <div class="ap-feat"><span class="ap-check g"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#3B6D11" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Before &amp; after photos every job</div>
+        </div>
       </div>
       <div class="ap-cta-wrap">
         <a href="https://wa.me/6594513022?text=Hi%20AFIX!%20I%27d%20like%20to%20book%20a%20standard%20aircon%20service." target="_blank" rel="noopener" class="ap-btn navy">Book now ↗</a>
@@ -457,11 +468,18 @@ footer{background:var(--navy);padding:52px 6vw 32px;border-top:1px solid rgba(25
         <div class="ap-price-row"><span class="ap-label">2 units onwards</span><span class="ap-val">$50 / unit</span></div>
       </div>
       <div class="ap-feats">
-        <div class="ap-feat"><span class="ap-check b"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#185FA5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Everything in normal servicing</div>
-        <div class="ap-feat"><span class="ap-check b"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#185FA5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Full dismantling of indoor unit</div>
-        <div class="ap-feat"><span class="ap-check b"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#185FA5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Chemical solution flush of evaporator coil</div>
-        <div class="ap-feat"><span class="ap-check b"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#185FA5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>High-pressure wash of all components</div>
-        <div class="ap-feat"><span class="ap-check b"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#185FA5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Full drainage system flush</div>
+        <button class="ap-feats-toggle" aria-expanded="false">
+          What's included
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="ap-feats-list">
+          <div class="ap-feat"><span class="ap-check b"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#185FA5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Everything in normal servicing</div>
+          <div class="ap-feat"><span class="ap-check b"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#185FA5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Full dismantling of indoor unit</div>
+          <div class="ap-feat"><span class="ap-check b"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#185FA5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Chemical solution flush of evaporator coil</div>
+          <div class="ap-feat"><span class="ap-check b"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#185FA5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>High-pressure wash of all components</div>
+          <div class="ap-feat"><span class="ap-check b"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#185FA5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Full drainage system flush</div>
+          <div class="ap-feat"><span class="ap-check b"><svg width="8" height="8" viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2.5" fill="none" stroke="#185FA5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Before &amp; after photos every job</div>
+        </div>
       </div>
       <div class="ap-cta-wrap">
         <a href="https://wa.me/6594513022?text=Hi%20AFIX!%20I%27d%20like%20to%20book%20an%20aircon%20chemical%20wash." target="_blank" rel="noopener" class="ap-btn blue-btn">Book now ↗</a>
@@ -860,6 +878,14 @@ const observer = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
 }, { threshold: 0.12 });
 document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+document.querySelectorAll('.ap-feats-toggle').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const list = btn.nextElementSibling;
+    const open = list.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open);
+  });
+});
 </script>
 </body>
 </html>
