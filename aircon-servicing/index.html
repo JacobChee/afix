@@ -259,7 +259,9 @@ nav{position:sticky;top:0;z-index:200;background:var(--white);border-bottom:1px 
 
 /* PROBLEM CARDS */
 .problems-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:8px}
-.problem-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:28px 28px 24px}
+.problem-card{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:0;overflow:hidden}
+.problem-img{width:100%;height:180px;object-fit:cover;display:block}
+.problem-card-body{padding:24px 28px 24px}
 .problem-title{font-size:16px;font-weight:500;color:var(--navy);margin-bottom:8px;display:flex;align-items:center;gap:10px}
 .problem-icon{width:32px;height:32px;background:var(--sky);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .problem-icon svg{width:16px;height:16px;stroke:var(--blue);fill:none;stroke-width:1.8}
@@ -602,36 +604,48 @@ footer{background:var(--navy);padding:52px 6vw 32px;border-top:1px solid rgba(25
   <p class="section-sub">Servicing fixes most common issues. Here's what the symptom usually means.</p>
   <div class="problems-grid fade-up">
     <div class="problem-card">
-      <div class="problem-title">
-        <div class="problem-icon"><svg viewBox="0 0 24 24"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></svg></div>
-        Aircon not cold
+      <img class="problem-img" src="/images/blog/aircon-not-cold-singapore.jpg" alt="Aircon not cold — indoor split unit showing temperature display" loading="lazy">
+      <div class="problem-card-body">
+        <div class="problem-title">
+          <div class="problem-icon"><svg viewBox="0 0 24 24"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></svg></div>
+          Aircon not cold
+        </div>
+        <p class="problem-body">Usually caused by a dirty evaporator coil blocking airflow, or low refrigerant gas. A chemical wash restores coil performance. If gas is low, we quote a top-up separately after diagnosing the cause — low gas often means a leak that needs finding first. <strong style="color:var(--navy);">A coil running dirty for 12+ months draws 20–30% more electricity — before cooling noticeably drops.</strong></p>
+        <a href="/aircon-not-cold/" style="display:inline-block;margin-top:14px;font-size:13px;font-weight:500;color:var(--blue);text-decoration:none;">Causes &amp; fix →</a>
       </div>
-      <p class="problem-body">Usually caused by a dirty evaporator coil blocking airflow, or low refrigerant gas. A chemical wash restores coil performance. If gas is low, we quote a top-up separately after diagnosing the cause — low gas often means a leak that needs finding first. <strong style="color:var(--navy);">A coil running dirty for 12+ months draws 20–30% more electricity — before cooling noticeably drops.</strong></p>
-      <a href="/aircon-not-cold/" style="display:inline-block;margin-top:14px;font-size:13px;font-weight:500;color:var(--blue);text-decoration:none;">Causes &amp; fix →</a>
     </div>
     <div class="problem-card">
-      <div class="problem-title">
-        <div class="problem-icon"><svg viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg></div>
-        Water leaking from aircon
+      <img class="problem-img" src="/images/blog/aircon-dripping-water-singapore.jpg" alt="Water leaking from aircon — dripping water stain on wall" loading="lazy">
+      <div class="problem-card-body">
+        <div class="problem-title">
+          <div class="problem-icon"><svg viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg></div>
+          Water leaking from aircon
+        </div>
+        <p class="problem-body">Almost always a blocked drainage line or overflowing drain tray. We clear this as part of every standard service. If the drain tray is cracked or the pipe is disconnected, we'll show you and quote a fix before touching anything. <strong style="color:var(--navy);">Left uncleared, a blocked drain overflows into your wall or ceiling — what started as a $25 fix becomes a water damage claim.</strong></p>
+        <a href="/aircon-leaking-water/" style="display:inline-block;margin-top:14px;font-size:13px;font-weight:500;color:var(--blue);text-decoration:none;">Causes &amp; fix →</a>
       </div>
-      <p class="problem-body">Almost always a blocked drainage line or overflowing drain tray. We clear this as part of every standard service. If the drain tray is cracked or the pipe is disconnected, we'll show you and quote a fix before touching anything. <strong style="color:var(--navy);">Left uncleared, a blocked drain overflows into your wall or ceiling — what started as a $25 fix becomes a water damage claim.</strong></p>
-      <a href="/aircon-leaking-water/" style="display:inline-block;margin-top:14px;font-size:13px;font-weight:500;color:var(--blue);text-decoration:none;">Causes &amp; fix →</a>
     </div>
     <div class="problem-card">
-      <div class="problem-title">
-        <div class="problem-icon"><svg viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg></div>
-        Aircon smells bad
+      <img class="problem-img" src="/images/work/orchard-indoor-filter.jpg" alt="Aircon smells bad — dirty filter with mould and dust buildup" loading="lazy">
+      <div class="problem-card-body">
+        <div class="problem-title">
+          <div class="problem-icon"><svg viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg></div>
+          Aircon smells bad
+        </div>
+        <p class="problem-body">Musty or foul smells mean mould and bacteria have built up on the coil and in the drainage system — routine cleaning won't reach it. A chemical wash with mould treatment clears it fully. Most units are odour-free within 30 minutes of the job finishing. <strong style="color:var(--navy);">Mould on the coil blows spores into the room every time the unit runs — it doesn't clear on its own.</strong></p>
+        <a href="/aircon-smells-bad/" style="display:inline-block;margin-top:14px;font-size:13px;font-weight:500;color:var(--blue);text-decoration:none;">Causes &amp; fix →</a>
       </div>
-      <p class="problem-body">Musty or foul smells mean mould and bacteria have built up on the coil and in the drainage system — routine cleaning won't reach it. A chemical wash with mould treatment clears it fully. Most units are odour-free within 30 minutes of the job finishing. <strong style="color:var(--navy);">Mould on the coil blows spores into the room every time the unit runs — it doesn't clear on its own.</strong></p>
-      <a href="/aircon-smells-bad/" style="display:inline-block;margin-top:14px;font-size:13px;font-weight:500;color:var(--blue);text-decoration:none;">Causes &amp; fix →</a>
     </div>
     <div class="problem-card">
-      <div class="problem-title">
-        <div class="problem-icon"><svg viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></div>
-        Aircon making noise
+      <img class="problem-img" src="/images/work/sembawang-compressor.jpg" alt="Aircon making noise — outdoor compressor unit inspection" loading="lazy">
+      <div class="problem-card-body">
+        <div class="problem-title">
+          <div class="problem-icon"><svg viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></div>
+          Aircon making noise
+        </div>
+        <p class="problem-body">Rattling is usually a loose panel or debris in the blower. A humming or grinding sound points to the fan motor or compressor. We inspect and diagnose on-site. Panel and blower issues are fixed during the service visit — motor or compressor work is quoted separately. <strong style="color:var(--navy);">A rattling blower left unchecked usually leads to a full motor replacement within 6–12 months.</strong></p>
+        <a href="/aircon-making-noise/" style="display:inline-block;margin-top:14px;font-size:13px;font-weight:500;color:var(--blue);text-decoration:none;">Causes &amp; fix →</a>
       </div>
-      <p class="problem-body">Rattling is usually a loose panel or debris in the blower. A humming or grinding sound points to the fan motor or compressor. We inspect and diagnose on-site. Panel and blower issues are fixed during the service visit — motor or compressor work is quoted separately. <strong style="color:var(--navy);">A rattling blower left unchecked usually leads to a full motor replacement within 6–12 months.</strong></p>
-      <a href="/aircon-making-noise/" style="display:inline-block;margin-top:14px;font-size:13px;font-weight:500;color:var(--blue);text-decoration:none;">Causes &amp; fix →</a>
     </div>
   </div>
 </section>
