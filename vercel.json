@@ -138,6 +138,10 @@
       "use": "@vercel/static"
     },
     {
+      "src": "our-work/index.html",
+      "use": "@vercel/static"
+    },
+    {
       "src": "blog/index.html",
       "use": "@vercel/static"
     },
@@ -573,6 +577,15 @@
     {
       "src": "/aircon-making-noise/",
       "dest": "/aircon-making-noise/index.html"
+    },
+    {
+      "src": "/our-work",
+      "status": 301,
+      "headers": { "Location": "/our-work/" }
+    },
+    {
+      "src": "/our-work/",
+      "dest": "/our-work/index.html"
     },
     {
       "src": "/blog",
