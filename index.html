@@ -806,6 +806,12 @@ document.querySelectorAll('.ap-feats-toggle').forEach(btn => {
     btn.setAttribute('aria-expanded', open);
   });
 });
+
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.querySelector('.nav-links').classList.remove('open');
+  });
+});
 </script>
 </body>
 </html>
