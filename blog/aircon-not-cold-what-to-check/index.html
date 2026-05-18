@@ -107,6 +107,18 @@ footer{background:var(--navy);padding:40px 6vw 28px}
 @media(max-width:768px){.nav-links{display:none}}
 .nav-hamburger{display:none;background:none;border:none;cursor:pointer;padding:6px;color:var(--navy);line-height:0;flex-shrink:0}
 @media(max-width:768px){.nav-hamburger{display:flex}.nav-cta{display:none!important}.nav-links.open{display:flex!important;position:fixed;top:68px;left:0;right:0;background:var(--white);border-bottom:2px solid var(--border);flex-direction:column;padding:8px 0;gap:0;z-index:300;box-shadow:0 8px 24px rgba(15,42,74,.12)}.nav-links.open li,.nav-links.open a{display:block;width:100%}.nav-links.open a{padding:14px 6vw;font-size:15px;border-bottom:1px solid var(--border);color:var(--navy)!important}}
+
+.locations-section{background:var(--off);border:1px solid var(--border);border-radius:12px;padding:28px 32px;margin:40px 0}
+.locations-heading{font-family:var(--font-head);font-size:20px;font-weight:700;color:var(--navy);margin-bottom:6px}
+.locations-sub{font-size:14px;color:var(--muted);margin-bottom:20px;font-weight:300}
+.locations-regions{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.locations-region-label{font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--blue);margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.loc-chip{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;background:var(--white);border:1px solid var(--border);border-radius:6px;text-decoration:none;color:var(--navy);font-size:13px;font-weight:400;margin-bottom:5px;transition:border-color .2s}
+.loc-chip:last-child{margin-bottom:0}
+.loc-chip span{color:var(--blue);font-size:11px}
+.loc-chip:hover{border-color:var(--blue)}
+@media(max-width:600px){.locations-regions{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:380px){.locations-regions{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -241,6 +253,46 @@ footer{background:var(--navy);padding:40px 6vw 28px}
       <div class="faq-a">A sudden drop (versus gradual) usually means: the outdoor unit's circuit breaker tripped, the compressor overheated and shut off on protection mode, or a refrigerant leak reached a critical point. Check the outdoor unit's power switch first.</div>
     </div>
   </div>
+
+  <div class="locations-section">
+  <div class="locations-heading">Book a technician near you</div>
+  <p class="locations-sub">We cover all major areas in Singapore — no travel surcharge anywhere.</p>
+  <div class="locations-regions">
+      <div>
+        <div class="locations-region-label">North</div>
+        <a href="/aircon-servicing-woodlands/" class="loc-chip">Woodlands <span>→</span></a>
+        <a href="/aircon-servicing-sembawang/" class="loc-chip">Sembawang <span>→</span></a>
+        <a href="/aircon-servicing-yishun/" class="loc-chip">Yishun <span>→</span></a>
+        <a href="/aircon-servicing-ang-mo-kio/" class="loc-chip">Ang Mo Kio <span>→</span></a>
+        <a href="/aircon-servicing-sengkang/" class="loc-chip">Sengkang <span>→</span></a>
+        <a href="/aircon-servicing-hougang/" class="loc-chip">Hougang <span>→</span></a>
+      </div>
+      <div>
+        <div class="locations-region-label">East</div>
+        <a href="/aircon-servicing-tampines/" class="loc-chip">Tampines <span>→</span></a>
+        <a href="/aircon-servicing-bedok/" class="loc-chip">Bedok <span>→</span></a>
+        <a href="/aircon-servicing-pasir-ris/" class="loc-chip">Pasir Ris <span>→</span></a>
+        <a href="/aircon-servicing-serangoon/" class="loc-chip">Serangoon <span>→</span></a>
+        <a href="/aircon-servicing-punggol/" class="loc-chip">Punggol <span>→</span></a>
+      </div>
+      <div>
+        <div class="locations-region-label">West</div>
+        <a href="/aircon-servicing-jurong-west/" class="loc-chip">Jurong West <span>→</span></a>
+        <a href="/aircon-servicing-jurong-east/" class="loc-chip">Jurong East <span>→</span></a>
+        <a href="/aircon-servicing-bukit-batok/" class="loc-chip">Bukit Batok <span>→</span></a>
+        <a href="/aircon-servicing-choa-chu-kang/" class="loc-chip">Choa Chu Kang <span>→</span></a>
+        <a href="/aircon-servicing-bukit-panjang/" class="loc-chip">Bukit Panjang <span>→</span></a>
+        <a href="/aircon-servicing-clementi/" class="loc-chip">Clementi <span>→</span></a>
+      </div>
+      <div>
+        <div class="locations-region-label">Central</div>
+        <a href="/aircon-servicing-bishan/" class="loc-chip">Bishan <span>→</span></a>
+        <a href="/aircon-servicing-toa-payoh/" class="loc-chip">Toa Payoh <span>→</span></a>
+        <a href="/aircon-servicing-queenstown/" class="loc-chip">Queenstown <span>→</span></a>
+        <a href="/aircon-servicing-kallang-whampoa/" class="loc-chip">Kallang / Whampoa <span>→</span></a>
+      </div>
+  </div>
+</div>
 
   <a class="back-link" href="/blog/">← Back to all guides</a>
 </div>
