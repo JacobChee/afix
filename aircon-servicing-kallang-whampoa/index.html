@@ -155,6 +155,13 @@ footer{background:var(--navy);padding:52px 6vw 32px;border-top:1px solid rgba(25
 @media(max-width:600px){.nav-links{display:none}.strip{gap:20px}}
 .nav-hamburger{display:none;background:none;border:none;cursor:pointer;padding:6px;color:var(--navy);line-height:0;flex-shrink:0}
 @media(max-width:768px){.nav-hamburger{display:flex}.nav-cta{display:none!important}.nav-links.open{display:flex!important;position:fixed;top:68px;left:0;right:0;background:var(--white);border-bottom:2px solid var(--border);flex-direction:column;padding:8px 0;gap:0;z-index:300;box-shadow:0 8px 24px rgba(15,42,74,.12)}.nav-links.open li,.nav-links.open a{display:block;width:100%}.nav-links.open a{padding:14px 6vw;font-size:15px;border-bottom:1px solid var(--border);color:var(--navy)!important}}
+
+.areas-regions{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:8px}
+.area-region{}
+.area-region-label{font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--blue);margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.area-region-label::after{content:'';flex:1;height:1px;background:var(--border)}
+.area-chip{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;background:var(--white);border:1px solid var(--border);border-radius:8px;text-decoration:none;color:var(--navy);font-size:13px;font-weight:500;transition:border-color .2s,box-shadow .2s;margin-bottom:6px}
+.area-chip:hover{border-color:var(--blue);box-shadow:0 2px 8px rgba(0,82,204,0.08)}
 </style>
 </head>
 <body>
@@ -278,6 +285,45 @@ footer{background:var(--navy);padding:52px 6vw 32px;border-top:1px solid rgba(25
   </div>
 </section>
 
+
+<section class="content-section alt" id="nearby-areas">
+  <div class="section-label">Coverage</div>
+  <h2 class="section-heading">Other areas we serve in Singapore</h2>
+  <div class="areas-regions fade-up">
+    <div class="area-region">
+      <div class="area-region-label">North</div>
+      <a href="/aircon-servicing-woodlands/" class="area-chip">Woodlands <span>→</span></a>
+      <a href="/aircon-servicing-sembawang/" class="area-chip">Sembawang <span>→</span></a>
+      <a href="/aircon-servicing-yishun/" class="area-chip">Yishun <span>→</span></a>
+      <a href="/aircon-servicing-ang-mo-kio/" class="area-chip">Ang Mo Kio <span>→</span></a>
+      <a href="/aircon-servicing-sengkang/" class="area-chip">Sengkang <span>→</span></a>
+      <a href="/aircon-servicing-hougang/" class="area-chip">Hougang <span>→</span></a>
+    </div>
+    <div class="area-region">
+      <div class="area-region-label">East</div>
+      <a href="/aircon-servicing-tampines/" class="area-chip">Tampines <span>→</span></a>
+      <a href="/aircon-servicing-bedok/" class="area-chip">Bedok <span>→</span></a>
+      <a href="/aircon-servicing-pasir-ris/" class="area-chip">Pasir Ris <span>→</span></a>
+      <a href="/aircon-servicing-serangoon/" class="area-chip">Serangoon <span>→</span></a>
+      <a href="/aircon-servicing-punggol/" class="area-chip">Punggol <span>→</span></a>
+    </div>
+    <div class="area-region">
+      <div class="area-region-label">West</div>
+      <a href="/aircon-servicing-jurong-west/" class="area-chip">Jurong West <span>→</span></a>
+      <a href="/aircon-servicing-jurong-east/" class="area-chip">Jurong East <span>→</span></a>
+      <a href="/aircon-servicing-bukit-batok/" class="area-chip">Bukit Batok <span>→</span></a>
+      <a href="/aircon-servicing-choa-chu-kang/" class="area-chip">Choa Chu Kang <span>→</span></a>
+      <a href="/aircon-servicing-bukit-panjang/" class="area-chip">Bukit Panjang <span>→</span></a>
+      <a href="/aircon-servicing-clementi/" class="area-chip">Clementi <span>→</span></a>
+    </div>
+    <div class="area-region">
+      <div class="area-region-label">Central</div>
+      <a href="/aircon-servicing-bishan/" class="area-chip">Bishan <span>→</span></a>
+      <a href="/aircon-servicing-toa-payoh/" class="area-chip">Toa Payoh <span>→</span></a>
+      <a href="/aircon-servicing-queenstown/" class="area-chip">Queenstown <span>→</span></a>
+    </div>
+  </div>
+</section>
 <section class="cta-section">
   <h2>Book your Kallang / Whampoa aircon service today</h2>
   <p>WhatsApp us your unit count and block — we'll confirm a same-week slot.</p>
