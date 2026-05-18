@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
@@ -7,7 +7,7 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -17,17 +17,17 @@
       <image:title>AFIX technician servicing a wall-mounted air conditioning unit in Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-chemical-wash/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://www.afix.sg/images/hero-aircon-chemical-wash.jpg</image:loc>
-      <image:title>Aircon chemical wash â€” technician deep-cleaning an indoor unit in Singapore</image:title>
+      <image:title>Aircon chemical wash — technician deep-cleaning an indoor unit in Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/daikin-aircon-servicing/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -37,7 +37,7 @@
       <image:title>Daikin aircon outdoor unit inspection by AFIX technician in Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/mitsubishi-electric-aircon-servicing/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -47,7 +47,7 @@
       <image:title>Mitsubishi Electric aircon serviced by a certified AFIX technician in Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-tampines/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -57,7 +57,7 @@
       <image:title>Aircon servicing in Tampines HDB flats by AFIX</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-jurong-west/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -67,7 +67,7 @@
       <image:title>Aircon servicing in Jurong West Singapore by AFIX</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-woodlands/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -77,7 +77,7 @@
       <image:title>Aircon servicing in Woodlands HDB flats by AFIX Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-sengkang/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -87,7 +87,7 @@
       <image:title>Aircon servicing in Sengkang HDB estate by AFIX Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-punggol/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -97,7 +97,7 @@
       <image:title>Aircon servicing in Punggol HDB by AFIX Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-hougang/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -107,7 +107,7 @@
       <image:title>Aircon servicing in Hougang HDB by AFIX Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-yishun/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -117,7 +117,7 @@
       <image:title>Aircon servicing in Yishun HDB flats by AFIX Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-bedok/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -127,7 +127,7 @@
       <image:title>Aircon servicing in Bedok HDB and private property by AFIX Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-ang-mo-kio/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -137,7 +137,7 @@
       <image:title>Aircon servicing in Ang Mo Kio HDB estates by AFIX Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-choa-chu-kang/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -147,39 +147,39 @@
       <image:title>Aircon servicing in Choa Chu Kang HDB by AFIX Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-not-cold/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-leaking-water/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-smells-bad/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-making-noise/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/our-work/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-clementi/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -187,9 +187,9 @@
       <image:title>HDB residential block with green archway in Clementi Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-toa-payoh/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -197,9 +197,9 @@
       <image:title>HDB residential block with green archway in Toa Payoh Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-queenstown/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -207,9 +207,9 @@
       <image:title>HDB residential block with green archway in Queenstown Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-bishan/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -217,9 +217,9 @@
       <image:title>HDB residential block with green archway in Bishan Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-pasir-ris/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -227,9 +227,9 @@
       <image:title>HDB residential block with green archway in Pasir Ris Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-bukit-batok/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -237,9 +237,9 @@
       <image:title>HDB residential block with green archway in Bukit Batok Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-jurong-east/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -247,9 +247,9 @@
       <image:title>HDB residential block with green archway in Jurong East Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-serangoon/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -257,9 +257,9 @@
       <image:title>HDB residential block with green archway in Serangoon Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-sembawang/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -267,9 +267,9 @@
       <image:title>HDB residential block with green archway in Sembawang Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/aircon-servicing-bukit-panjang/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -277,65 +277,165 @@
       <image:title>HDB residential block with green archway in Bukit Panjang Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/blog/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/blog/aircon-water-dripping-from-wall/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/blog/how-often-service-aircon-singapore/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/blog/aircon-chemical-wash-vs-normal-service/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/blog/aircon-not-cold-what-to-check/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/blog/how-long-does-aircon-last-singapore/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/blog/hdb-vs-condo-aircon-servicing/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/blog/why-does-my-aircon-smell/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  <url>
-    <loc>https://www.afix.sg/aircon-servicing-kallang-whampoa/</loc>
+<url>
+    <loc>https://afix.sg/aircon-servicing-kallang-whampoa/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://www.afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
       <image:title>HDB residential block in Kallang Whampoa Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
+    <loc>https://afix.sg/aircon-servicing-clementi/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Clementi Singapore</image:title>
+    </image:image>
+  </url>
+<url>
+    <loc>https://afix.sg/aircon-servicing-toa-payoh/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Toa Payoh Singapore</image:title>
+    </image:image>
+  </url>
+<url>
+    <loc>https://afix.sg/aircon-servicing-queenstown/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Queenstown Singapore</image:title>
+    </image:image>
+  </url>
+<url>
+    <loc>https://afix.sg/aircon-servicing-bishan/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Bishan Singapore</image:title>
+    </image:image>
+  </url>
+<url>
+    <loc>https://afix.sg/aircon-servicing-pasir-ris/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Pasir Ris Singapore</image:title>
+    </image:image>
+  </url>
+<url>
+    <loc>https://afix.sg/aircon-servicing-bukit-batok/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Bukit Batok Singapore</image:title>
+    </image:image>
+  </url>
+<url>
+    <loc>https://afix.sg/aircon-servicing-jurong-east/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Jurong East Singapore</image:title>
+    </image:image>
+  </url>
+<url>
+    <loc>https://afix.sg/aircon-servicing-serangoon/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Serangoon Singapore</image:title>
+    </image:image>
+  </url>
+<url>
+    <loc>https://afix.sg/aircon-servicing-sembawang/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Sembawang Singapore</image:title>
+    </image:image>
+  </url>
+<url>
+    <loc>https://afix.sg/aircon-servicing-bukit-panjang/</loc>
+    <lastmod>2026-05-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://afix.sg/images/hero-hdb-block.jpg</image:loc>
+      <image:title>HDB residential block with green archway in Bukit Panjang Singapore</image:title>
+    </image:image>
+  </url>
+<url>
     <loc>https://www.afix.sg/panasonic-aircon-servicing/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -345,7 +445,7 @@
       <image:title>Certified technician servicing a Panasonic air conditioner in Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/lg-aircon-servicing/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -355,7 +455,7 @@
       <image:title>Certified technician servicing an LG air conditioner in Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/hitachi-aircon-servicing/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -365,7 +465,7 @@
       <image:title>Certified technician servicing a Hitachi air conditioner in Singapore</image:title>
     </image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.afix.sg/samsung-aircon-servicing/</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
